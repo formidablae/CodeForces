@@ -1,0 +1,5 @@
+n, k = map(int, input().split())
+players = list(map(int, input().split()))
+playersdist = list(set(players))
+if len(list(set(players))) == n - 1: print("YES")
+else: print("NO")
